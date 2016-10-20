@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="fill"    
+    android:background="#ffff11"
+    android:orientation="vertical"
+    tools:context="com.example.tvprogram.Channel"
+    tools:ignore="MergeRootFrame" >    
+<!--     android:background="@drawable/ic_launcher" -->
+
+    <RadioGroup
+        android:id="@+id/SegmentedButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/activity_padding_top"
+        android:orientation="horizontal" >
+ 
+    <com.example.tvprogram.SegmentedControlButton
+        android:id="@+id/option1"
+        android:checked="false"
+        android:padding="@dimen/activity_padding"
+        android:text="@string/day"
+        android:textSize="@dimen/activity_text_size" />
+
+    <com.example.tvprogram.SegmentedControlButton 
+        android:checked="false" 
+        android:padding="@dimen/activity_padding"
+         android:textSize="@dimen/activity_text_size"
+        android:text="@string/day" 
+        android:id="@+id/option2" />
+    <com.example.tvprogram.SegmentedControlButton 
+        android:checked="false" 
+        android:padding="@dimen/activity_padding"
+         android:textSize="@dimen/activity_text_size"
+        android:text="@string/day" 
+        android:id="@+id/option3" />
+    <com.example.tvprogram.SegmentedControlButton 
+        android:checked="false" 
+        android:padding="@dimen/activity_padding"
+         android:textSize="@dimen/activity_text_size"
+        android:text="@string/day" 
+        android:id="@+id/option4" />
+    <com.example.tvprogram.SegmentedControlButton 
+        android:checked="false" 
+        android:padding="@dimen/activity_padding"
+         android:textSize="@dimen/activity_text_size"
+        android:text="@string/day" 
+        android:id="@+id/option5" />
+    <com.example.tvprogram.SegmentedControlButton 
+        android:checked="false" 
+        android:padding="@dimen/activity_padding"
+         android:textSize="@dimen/activity_text_size"
+        android:text="@string/day" 
+        android:id="@+id/option6" />
+    <com.example.tvprogram.SegmentedControlButton 
+        android:checked="false" 
+        android:padding="@dimen/activity_padding"
+         android:textSize="@dimen/activity_text_size"
+        android:text="@string/day" 
+        android:id="@+id/option7" />
+    
+	</RadioGroup>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/activity_padding_top" >
+
+    </ListView>
+
+
+</LinearLayout>
+
+    

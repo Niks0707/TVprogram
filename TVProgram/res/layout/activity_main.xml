@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffff11"
+    tools:context="com.example.tvprogram.Main" >
+
+    
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="fill_horizontal"
+        android:paddingBottom="@dimen/activity_padding_bottom"
+        android:background="#ffff11"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+    </ListView>
+    
+
+    
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TV program</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_channel">Channel</string>
+    <string name="button_channel">Channel</string>
+    <string name="title_activity_segmented_control">SegmentedControl</string>
+    <string name="refresh">Refresh</string>
+    <string name="tag_begin">div class="b-channel__title"</string>
+    <string name="tag_end">/a></string>
+    <string name="day">day</string>
+    <string-array name="array_day">
+        <item name="mo">ПН</item>
+        <item name="tu">ВТ</item>
+        <item name="we">СР</item>
+        <item name="th">ЧТ</item>
+        <item name="fr">ПТ</item>
+        <item name="sa">СБ</item>
+        <item name="su">ВС</item>
+    </string-array>
+
+</resources>
